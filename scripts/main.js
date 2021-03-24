@@ -14,10 +14,10 @@ async function handleSubmit(event) {
         'Accept': 'application/json'
     }
   }).then(response => {
-    status.innerHTML = "Thanks for your submission!";
+    status.innerHTML = "Thank you for expressing interest!";
     form.reset()
   }).catch(error => {
-    status.innerHTML = "Oops! There was a problem submitting your form"
+    status.innerHTML = "Oops! There was a problem submitting your form."
   });
 }
 form.addEventListener("submit", handleSubmit)

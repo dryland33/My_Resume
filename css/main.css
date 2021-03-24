@@ -5289,6 +5289,7 @@ a.credit {
     color: #19551f;
     font-size: 1em;
     text-transform: uppercase;
-    margin: 20px;
+    margin: 0px 0px 20px 40px;
     font-weight: bold;
+    column-span: 2;
   }  
